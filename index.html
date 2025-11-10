@@ -1,58 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mn">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Museum Website</title>
-  <link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Cold War Era</title>
+  <link rel="stylesheet" href="dw.css">
+  <link href="index.css" rel="stylesheet">
 </head>
 <body>
- 
 
-  <nav class="tun">
-    <div class="logo">History</div>
-    <ul class="menu">
-      <li>Home</li>
-      <li>About</li>
-      <li>About Us</li>
-      <li>What is the cold war?</li>
-      
-    </ul>
-   
+  <header>
+    <div class="overlay">
+      <h1>Хүйтэн дайн эрин үе</h1>
+      <p>1947 – 1991 | Хуваагдсан Дэлхий</p>
+      <a href="#intro" class="cta-btn">Түүхийг Судлах</a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="nav-container">
+      <h2 class="logo">Cold War</h2>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <ul id="nav-links">
+        <li><a href="#intro">Товчхон</a></li>
+        <li><a href="#events">Гол үйл явдлууд</a></li>
+        <li><a href="#leaders">Удирдагчид</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <section class="heo">
-    <div class="op">
-      <h4>Huiten dain blum blum</h4>
-      <h1>Wdj hdau J djad </h1>
-      <p>
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque saepe facere omnis explicabo officiis animi rem provident itaque excepturi aut nihil expedita ipsam, earum ipsum reiciendis a quos culpa enim!
-      </p>
-      <button class="read-btn">Read More</button>
-    </div>
-    <div class="hero-images">
-      <img src="https://i.pinimg.com/1200x/9c/55/34/9c5534a9b508c3c7e6acd4f45e0dfaf1.jpg" alt="Museum Image 1" />
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShn1o1Mo6n3GezFKRtpGSKK0Rt18DxK77fkmn6QPu9Po2BUjuebIvsrqEIhyMEgvoFUxk&usqp=CAU" alt="Museum Image 2" />
+  <section id="intro">
+    <h2>Ерөнхийдөө</h2>
+    <p class="gt">
+      Хүйтэн дайн бол АНУ болон ЗХУ-ын хоорондох геополитикийн хурцадмал байдал, тагнуул, цөмийн зэвсэглэл, суртал ухуулгын өрсөлдөөнөөр тодорхойлогдсон дэлхийн түүхийн хамгийн хүйтэн, гэхдээ хамгийн идэвхтэй эрин үе байв.
+    </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Cold_war_banner.jpg/2560px-Cold_war_banner.jpg" alt="Berlin Wall" class="photo">
+  </section>
+
+  <section id="events">
+    <h2>Гол үйл явдлууд</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Soviet-R-12-nuclear-ballistic_missile.jpg/800px-Soviet-R-12-nuclear-ballistic_missile.jpg" alt="Cuban Missile Crisis">
+        <div class="card-text">
+          <h3>Кубын пуужингийн хямрал (1962)</h3>
+          <p>АНУ Кубад ЗХУ-ын пуужинг илрүүлснээр дэлхий цөмийн дайнд хамгийн ойртсон мөч болсон.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.natgeofe.com/n/d2a92cfc-613c-4dec-ab5c-ed29c22309bd/GettyImages-1035608052_16x9.jpg?w=1200" alt="Space Race">
+        <div class="card-text">
+          <h3>Сансрын уралдаан</h3>
+          <p>Спутник ба сарны буултаар илэрхийлэгдсэн шинжлэх ухааны нэр хүндийн төлөөх өрсөлдөөн.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Airlift-berlin.jpg" alt="Berlin Airlift">
+        <div class="card-text">
+          <h3>Берлиний агаараар хангалт (1948–49)</h3>
+          <p>ЗХУ газрын бүх замыг хаасны дараа холбоотнууд агаараар хүнс, түлш нийлүүлж байв.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="about">
-    <img src="https://news.zindaa.mn/images/news/origin/19/2_20220419122032.jpg" alt="Museum Hallway" />
-    <div class="h">
-      <h3>About</h3>
-      <h2>bum dajh jdahsj jdak</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-      <p>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip ex ea commodo consequat.
-      </p>
-      <button class="hu">Read More</button>
+  <section id="leaders">
+    <h2>Удирдагчид</h2>
+    <div class="grid">
+      <div class="card leader">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/John_F_Kennedy.jpg/960px-John_F_Kennedy.jpg" alt="John F. Kennedy">
+        <div class="card-text">
+          <h3>Жон Ф. Кеннеди</h3>
+          <p>Кубын пуужингийн хямралыг зохицуулж, коммунизмын эсрэг хатуу байр суурь баримталсан АНУ-ын Ерөнхийлөгч.</p>
+        </div>
+      </div>
+
+      <div class="card leader">
+        <img src="https://cdn.britannica.com/86/10486-050-31BED824/Nikita-Khrushchev-1960.jpg" alt="Nikita Khrushchev">
+        <div class="card-text">
+          <h3>Никита Хрущев</h3>
+          <p>Зөвлөлтийн тэргүүн, Кубын хямралын үеэрх шийдвэрүүд нь дэлхийн хүчний тэнцвэрийг тодорхойлсон.</p>
+        </div>
+      </div>
+
+      <div class="card leader">
+        <img src="https://cdn.theatlantic.com/thumbor/2HHDRAGKSewMmjUaSkYDy4dx2co=/249x0:1749x1125/1200x900/media/img/mt/2022/08/Artboard_1/original.jpg" alt="Mikhail Gorbachev">
+        <div class="card-text">
+          <h3>Михаил Горбачев</h3>
+          <p>гласность ба перестройка шинэчлэлийн бодлогоор Хүйтэн дайны төгсгөлд хүргэсэн удирдагч.</p>
+        </div>
+      </div>
     </div>
   </section>
 
- 
+  <footer>
+    <p>© 2025 Хүйтэн дайны төсөл | Эрмүүний баг голлох Мөнх-Оргил, Хантүшиг</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.3 });
+    sections.forEach(sec => observer.observe(sec));
+
+    const toggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+      toggle.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
